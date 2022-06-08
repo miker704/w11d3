@@ -1,21 +1,33 @@
- import React from 'react';
+import React from "react";
 
 
 
-	class TodoList extends React.Componenet {
+
+	class TodoList extends React.Component{
+
+		render(){
+
+			return(
+				<div>
+
+				<ul className = "todo-list">
+						
 
 
-			render{
+				</ul>
 
-				return (
 
-					<h1>hello world<h1>
 
-				);
+				</div>
+			);
 
-			}
+		}
+
 
 	}
 
 
 
+//export default TodoList;
+//
+	export default () => <h3>Todo List goes here!</h3>
