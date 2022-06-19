@@ -5,7 +5,7 @@ import TodoList from "./todo_list.jsx";
 
 //import functions of todo and step from their action file
 
-import {receiveTodo} from "../../actions/todo_actions.js";
+import {receiveTodo, removeTodo} from "../../actions/todo_actions.js";
 import {allTodos} from "../../reducers/selectors.js";
 
 	const mapStateToProps = state => ({
@@ -17,7 +17,8 @@ import {allTodos} from "../../reducers/selectors.js";
 
 	const mapDispatchToProps = dispatch =>({
 
-		receiveTodo : todo => dispatch(receiveTodo(todo))
+		receiveTodo : todo => dispatch(receiveTodo(todo)),
+		removeTodo : todo => dispatch(removeTodo(todo))
 
 	});
 
