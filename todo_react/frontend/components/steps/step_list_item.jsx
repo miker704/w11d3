@@ -20,7 +20,7 @@ class StepListItem extends React.Component{
     render(){
         return(
             <li className="step-header">
-            <div>
+            <div className="step-info">
             <h3>{this.props.step.title}</h3>
             <p>{this.props.step.body}</p>
             <button className={this.props.step.done ? "done" : "undone"} onClick={this.toggleStep}>{this.props.step.done ? "done" : "undone"}</button>
