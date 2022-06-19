@@ -82,9 +82,13 @@ h3{
 
 }
 
+.todo-form label, .step-form label{
+    
+}
+
 
 .todo-form input .step-form input, .todo-form textarea, .step-form textarea{
-    
+
 }
 
 
