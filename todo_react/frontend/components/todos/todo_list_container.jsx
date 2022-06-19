@@ -17,8 +17,8 @@ import {allTodos} from "../../reducers/selectors.js";
 
 	const mapDispatchToProps = dispatch =>({
 
-		receiveTodo : todo => dispatch(receiveTodo(todo)),
-		receiveTodos: () => dispatch(receiveTodos())
+		receiveTodos: () => dispatch(receiveTodos()),
+		receiveTodo : todo => dispatch(receiveTodo(todo))
 
 	});
 

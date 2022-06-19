@@ -8,8 +8,8 @@ import {
 
 
 
-// const todosReducer = (state = {}, action) => {
-const todosReducer = (state = initialState, action) => {
+const todosReducer = (state = {}, action) => {
+// const todosReducer = (state = initialState, action) => {
 
     Object.freeze(state);
     // let nextState;

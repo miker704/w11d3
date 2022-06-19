@@ -10,7 +10,7 @@ import TodoForm from "./todo_form";
 				const{todos, receiveTodo, removeTodo} = this.props;
 				const allTodos = todos.map((todo)=>{
 					return <TodoListItem
-						key={todo.id}
+						key={`TodoListItem${todo.id}`}
 						todo={todo}
 						receiveTodo={receiveTodo}
 					
