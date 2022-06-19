@@ -48,6 +48,10 @@ class TodoForm extends React.Component {
                 <label>Todo Name: <input id="titleinput" type="text" onChange={this.update('title')} value={this.state.title} /> <br /></label>
                 
                 <label>Todo Body: <textarea id="bodyinput" cols="20" rows="1" onChange={this.update('body') }value={this.state.body}></textarea> <br /></label>
+                <label>Tags: <input id="titleinput" type="text" onChange={this.update('newTag')} value={this.state.newTag} />
+                    <button type="button" onClick={this.addTag}>Add Tag</button>
+                 <br /></label>
+                 <ul>{tag_names}</ul>
                 
                 <button className="create-button">Create New Todo</button>
 
