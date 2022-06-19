@@ -12,7 +12,7 @@ class TodoDetailView extends React.Component{
         return(
             <div className="todo-detail-view">
                 <p className="todo-body">{todo.body}</p>
-                <StepListContainer todo_id={todo.id}/>
+                <StepListContainer todo_id={todo.id}/> <br />
                 <button className="delete-button" onClick={removeTodo}>Delete Todo</button>
                 
             </div>
