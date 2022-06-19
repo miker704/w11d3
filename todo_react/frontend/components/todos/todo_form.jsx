@@ -15,12 +15,7 @@ class TodoForm extends React.Component {
         return e => this.setState({ [field]: e.currentTarget.value });
     
     }
-    addTag(e){
-        this.setState({
-            tag_names: [...this.state.tag_names,this.state.newTag],
-            newTag:""
-        })
-    }
+
 
     handleSubmit(e) {
         e.preventDefault();
