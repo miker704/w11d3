@@ -11,6 +11,10 @@ class TodoListItem extends React.Component {
         this.toggleTodo = this.toggleTodo.bind(this);
     }
 
+    toggleDetail(){
+        
+    }
+
     render() {
         return (
             <div>
