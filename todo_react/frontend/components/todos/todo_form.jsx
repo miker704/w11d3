@@ -24,12 +24,7 @@ class TodoForm extends React.Component {
         this.setState({title: "",body:""});
     }
 
-    removeTag(idx){
-        this.setState({
-           tag_names: this.state.tag_names.filter((_,index) => index !==idx)
-
-        })
-    }
+    
 
     render() {
         const tag_names = this.state.tag_names.map((tag,idx) => {
