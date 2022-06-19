@@ -12,5 +12,9 @@ const errorsReducer = (state = [], action) => {
             return state;
     }
 }
+// Sample State Shape
+// [
+//   "Title cannot be blank",
+// ]
 
 export default errorsReducer;
