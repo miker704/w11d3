@@ -22,7 +22,7 @@ class StepForm extends React.Component{
     render(){
         return(
             <form onSubmit={this.handleSubmit}>
-                <label>Create New Todo</label> <br />
+                <label>Create New Step</label> <br />
                 <label>Title: <input id="titleinput" type="text" onChange={this.update('title')} value={this.state.title} /> <br /></label>
                 
                 <label>Description: <textarea id="bodyinput" cols="20" rows="1" onChange={this.update('body') }value={this.state.body}></textarea> <br /></label>
