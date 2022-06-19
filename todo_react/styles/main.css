@@ -47,7 +47,8 @@ h3{
 }
 
 .flex-row, .todo-list, .todo-list-item, .todo-header, .steo-list, .step-header, .step-list, .step-header, .step-buttons{
-
+    display: flex;
+    flex-direction: row;
 }
 
 .button, .done , .undone ,.delete-button, .create-button{
