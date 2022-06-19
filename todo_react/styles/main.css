@@ -82,8 +82,13 @@ h3{
 
 }
 
-.todo-form label, .step-form label{
+
+.todo-list, .todo-list-item, .todo-body{
     
+}
+
+.todo-form label, .step-form label{
+
 }
 
 
