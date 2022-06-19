@@ -1,21 +1,27 @@
 import React from "react";
-
+import TodoListItem from "./todo_list_item";
 
 
 
 	class TodoList extends React.Component{
 
 		render(){
-
+				const{todos, receiveTodo} = this.props;
+				const allTodos = todos.map((todo)=>{
+					return <TodoListItem
+						key={todo.id}
+						todo={todo}
+						receiveTodo={receiveTodo}
+					/>
+				})
 			return(
 				<div>
 
 				<ul className = "todo-list">
-						
-
+						{allTodos}
 
 				</ul>
-
+				
 
 
 				</div>
@@ -28,6 +34,6 @@ import React from "react";
 
 
 
-//export default TodoList;
+export default TodoList;
 //
-	export default () => <h3>Todo List goes here!</h3>
+	// export default () => <h3>Todo List goes here!</h3>
