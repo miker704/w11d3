@@ -100,11 +100,12 @@ margin: 10px;
 
 .todo-form label, .step-form label{
     margin: 10px 20px;
-    
+
 }
 
 
 .todo-form input .step-form input, .todo-form textarea, .step-form textarea{
+margin:10px 10px;
 
 }
 
