@@ -146,7 +146,7 @@ cursor: pointer;
 }
 
 .step-list .step-header .step-info{
-
+    width: 70%;
 }
 
 .step-form{
