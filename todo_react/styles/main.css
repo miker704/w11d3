@@ -42,7 +42,8 @@ h3{
 
 
 .flex-col, .todo-list, .todo-form, .step-form, .todo-form label, .step-list{
-
+    display: flex;
+    flex-direction: column;
 }
 
 .flex-row, .todo-list, .todo-list-item, .todo-header, .steo-list, .step-header, .step-list, .step-header, .step-buttons{
