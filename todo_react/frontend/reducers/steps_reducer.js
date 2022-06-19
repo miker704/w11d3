@@ -60,3 +60,22 @@ const stepsReducer = (state = {}, action) => {
 
 export default stepsReducer;
 
+// Sample State Shape
+// {
+//   1: {
+//     title: "walk to store",
+//     done: false
+//   },
+//   2: {
+//     title: "buy soap",
+//     done: false
+//   },
+//   3: {
+//     title: "walk to park",
+//     done: false
+//   },
+//   4: {
+//     title: "play with dog",
+//     done: false
+//   }
+// };
