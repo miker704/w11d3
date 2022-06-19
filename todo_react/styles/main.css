@@ -81,8 +81,13 @@ h3{
 .input{
 
 }
-.todo-list, .todo-list-item, .todo-header a {
+
+.todo-list, .todo-list-item, .todo-header  {
     
+}
+
+.todo-list, .todo-list-item, .todo-header a {
+
 }
 
 .todo-list, .todo-list-item, .todo-body{
