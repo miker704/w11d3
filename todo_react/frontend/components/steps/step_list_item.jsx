@@ -23,7 +23,7 @@ class StepListItem extends React.Component{
             <div>
             <h3>{this.props.step.title}</h3>
             <p>{this.props.step.body}</p>
-            <button className={done ? "done" : "undone"} onClick={this.toggleTodo}>{done ? "done" : "undone"}</button>
+            <button className={this.props.step.done ? "done" : "undone"} onClick={this.toggleStep}>{this.props.step.done ? "done" : "undone"}</button>
          
             </div>
             {detail}
