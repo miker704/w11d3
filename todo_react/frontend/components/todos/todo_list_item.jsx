@@ -36,8 +36,11 @@ class TodoListItem extends React.Component {
 
 
             <div>
-                <li className="TodoListItem">{this.props.todo.title}</li>
-                <button></button>
+                <li className="TodoListItem">
+                <h3><a onClick={this.toggleDetail}>{this.props.todo.title}</a></h3>
+                <button className={done ? "done":"undone"} onClick={this.toggleTodo}>{done ? "done":"undone"}</button>
+                {detail}
+                </li>
             </div>
         )
     }
