@@ -12,6 +12,9 @@ class TodoListItem extends React.Component {
     }
 
     toggleDetail(){
+
+    }
+    toggleTodo(){
         
     }
 
