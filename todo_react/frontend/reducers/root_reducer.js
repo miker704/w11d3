@@ -6,7 +6,7 @@ import errorsReducer from "./error_reducer.js";
 const rootReducer = combineReducers({
     todos: todosReducer,
     steps: stepsReducer,
-    error: errorReducer
+    error: errorsReducer
 
 })
 
