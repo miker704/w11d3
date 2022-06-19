@@ -142,7 +142,8 @@ cursor: pointer;
 }
 
 .step-list .step-header{
-
+    margin: 20px 0;
+    list-style: none;
 }
 
 .step-list .step-header .step-info{
