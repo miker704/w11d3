@@ -24,9 +24,9 @@ class StepForm extends React.Component {
         return (
             <form className="step-form" onSubmit={this.handleSubmit}>
               
-                <label>Title: <input id="titleinput" type="text" onChange={this.update('title')} value={this.state.title} placeholder="walk to the store"/> <br /></label>
+                <label>Title: <input id="input" type="text" onChange={this.update('title')} value={this.state.title} placeholder="walk to the store"/> <br /></label>
 
-                <label>Description: <textarea id="bodyinput" cols="20" rows="1" onChange={this.update('body')} value={this.state.body} placeholder="google store directions"></textarea> <br /></label>
+                <label>Description: <textarea id="input" cols="20" rows="1" onChange={this.update('body')} value={this.state.body} placeholder="google store directions"></textarea> <br /></label>
 
                 <button className="create-button">Create Step</button>
 
