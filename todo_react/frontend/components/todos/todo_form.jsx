@@ -21,7 +21,7 @@ class TodoForm extends React.Component {
         e.preventDefault();
         const todo = Object.assign({}, this.state,{ id: uniqueId() });
         this.props.receiveTodo(todo);
-        this.setState({title: "",body:"",tag_names:[]});
+        this.setState({title: "",body:""});
     }
 
     removeTag(idx){
