@@ -1,4 +1,4 @@
-import lib from "@babel/preset-env";
+
 import React from "react";
 import StepListContainer from "../steps/step_list_container.jsx";
 
