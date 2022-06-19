@@ -125,7 +125,7 @@ h3 {
 }
 
 a {
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 
 .step-list {
