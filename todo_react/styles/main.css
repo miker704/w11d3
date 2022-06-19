@@ -30,7 +30,8 @@ h3{
 }
 
 #content{
-
+    display: flex;
+    justify-content: center;
 }
 
 .app{
