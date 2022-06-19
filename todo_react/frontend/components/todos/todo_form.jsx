@@ -5,7 +5,7 @@ class TodoForm extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = { title: "", body: "", done: false,tag_names:[],newTag:"" };
+        this.state = { title: "", body: "", done: false};
         // this.update = this.update.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.addTag= this.addTag.bind(this)
