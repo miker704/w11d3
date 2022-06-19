@@ -1,4 +1,4 @@
-
+import React from "react";
 
 class TodoForm extends React.Component {
 
@@ -16,7 +16,7 @@ class TodoForm extends React.Component {
     }
 
     handleSubmit() {
-
+        this.props.receiveTodo(todo);
     }
 
 
@@ -24,8 +24,11 @@ class TodoForm extends React.Component {
     render() {
         return (
 
-            <form onSubmit={console.log("hi")}>
-
+            <form onSubmit={this.handleSubmit}>
+                    <label>Create New Todo</label> <br />
+                    <label>Todo Name: </label>
+                    <input type="text" onChange={this.update('title')}/>
+                    <button>Create New Todo</button>
 
 
             </form>
