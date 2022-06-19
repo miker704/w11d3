@@ -18,7 +18,7 @@ class StepList extends React.Component{
 
         return (
             <div>
-            <ul className="stepList">
+            <ul className="step-list">
                 {stepItems}
                 </ul>      
                  <StepForm todo_id={todo_id} receiveStep={receiveStep}/>
