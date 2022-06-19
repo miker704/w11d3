@@ -95,7 +95,7 @@ padding:5px;
 }
 
 .todo-list, .todo-list-item, .todo-body{
-
+margin: 10px;
 }
 
 .todo-form label, .step-form label{
