@@ -53,14 +53,21 @@ h3{
 
 .button, .done , .undone ,.delete-button, .create-button{
 
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 10px;
 }
 
 .button:focus, .done:focus , .undone:focus, .delete-button:focus, .create-button:focus, a:focus{
-
 }
 
 .button:hover, .done:hover , .undone:hover, .delete-button:hover, .create-button:hover{
-
+    outline: none;
 }
 
 .done{
