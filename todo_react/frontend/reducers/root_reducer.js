@@ -4,7 +4,8 @@ import stepsReducer from "./steps_reducer.js";
 
 const rootReducer = combineReducers({
     todos: todosReducer,
-    steps: stepsReducer
+    steps: stepsReducer,
+    error: errorReducer
 
 })
 
