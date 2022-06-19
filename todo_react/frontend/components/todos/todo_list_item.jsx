@@ -1,5 +1,5 @@
 import React from "react";
-
+import TodoDetailViewContainer from "./todo_detail_view_container";
 
 class TodoListItem extends React.Component {
 
@@ -11,13 +11,15 @@ class TodoListItem extends React.Component {
         this.toggleTodo = this.toggleTodo.bind(this);
     }
 
-    toggleDetail(){
+    toggleDetail(e){
             e.preventDefault();
             this.setState({detail: !this.state.detail});
-            
-    }
-    toggleTodo(){
 
+    }
+    toggleTodo(e){
+        e.preventDefault();
+        const toggleTodo = Object.assign({},this.props.todo,{done: !this.props.todo.done})
+        this.props.receiveTodo(toggleTodo);
     }
 
     render() {
