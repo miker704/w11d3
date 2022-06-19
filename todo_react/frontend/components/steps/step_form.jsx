@@ -22,7 +22,7 @@ class StepForm extends React.Component {
     }
     render() {
         return (
-            <form onSubmit={this.handleSubmit}>
+            <form className="step-form" onSubmit={this.handleSubmit}>
               
                 <label>Title: <input id="titleinput" type="text" onChange={this.update('title')} value={this.state.title} placeholder="walk to the store"/> <br /></label>
 
