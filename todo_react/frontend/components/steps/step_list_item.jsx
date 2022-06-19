@@ -19,9 +19,10 @@ class StepListItem extends React.Component{
 
     render(){
         return(
-            <li className="TodoListItem">
+            <li className="StepListItem">
             <div>
-            <h3><a onClick={this.toggleDetail}>{title}</a></h3>
+            <h3>{this.props.step.title}</h3>
+            <p>{this.props.step.body}</p>
             <button className={done ? "done" : "undone"} onClick={this.toggleTodo}>{done ? "done" : "undone"}</button>
          
             </div>
