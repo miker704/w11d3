@@ -1,6 +1,5 @@
 // this houses our action creators and action type constants
 
-import { receiveErrors, removeErrors } from './error_actions';
 
 export const RECEIVE_TODOS = "RECEIVE_TODOS";
 export const receiveTodos = (todos) => {
