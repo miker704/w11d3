@@ -8,7 +8,7 @@ class TodoForm extends React.Component {
         this.state = { title: "", body: "", done: false};
         // this.update = this.update.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
-        this.addTag= this.addTag.bind(this)
+        
     }
 
     update(field) {
