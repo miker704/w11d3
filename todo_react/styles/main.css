@@ -128,9 +128,9 @@ a {
   cursor: pointer;
 }
 
-.step-list {
+/* .step-list {
   margin-left: 20px;
-}
+} */
 .step-list .step-header {
   margin: 20px 0;
   list-style: none;
