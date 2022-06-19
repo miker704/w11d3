@@ -93,6 +93,7 @@ padding:5px;
 
 .todo-list .todo-list-item .todo-header  {
     justify-content: space-between;
+    align-items: center;
 }
 
 .todo-list .todo-list-item .todo-header a {
