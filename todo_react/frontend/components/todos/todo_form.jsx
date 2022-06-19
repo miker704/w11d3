@@ -29,9 +29,18 @@ class TodoForm extends React.Component {
         this.setState({title: "",body:"",tag_names:[]});
     }
 
+    removeTag(idx){
+        this.setState({
+           tag_names: this.state.tag_names.filter((_,index) => index !==idx)
 
+        })
+    }
 
     render() {
+        const tag_names = this.state.tag_names.map((tag,idx) => {
+            const clickHandler = () => this.removeTag(idx);
+            return <li key={idx} onClick={clickHandler}>{tag}</li>
+        })
         return (
 
             <form onSubmit={this.handleSubmit}>
