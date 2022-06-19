@@ -19,7 +19,7 @@ class StepListItem extends React.Component{
 
     render(){
         return(
-            <li className="StepListItem">
+            <li className="step-header">
             <div>
             <h3>{this.props.step.title}</h3>
             <p>{this.props.step.body}</p>
