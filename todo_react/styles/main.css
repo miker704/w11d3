@@ -68,7 +68,7 @@ h3{
 }
 
 .button:hover, .done:hover , .undone:hover, .delete-button:hover, .create-button:hover{
-    outline: none;
+    background-color: #0097A7;
 }
 
 .done{
