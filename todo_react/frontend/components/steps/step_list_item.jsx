@@ -12,8 +12,8 @@ class StepListItem extends React.Component{
    
     toggleStep(e) {
         e.preventDefault();
-        const toggledTodo = Object.assign({}, this.props.todo, { done: !this.props.todo.done })
-        this.props.receiveTodo(toggledTodo);
+        const toggledStep = Object.assign({}, this.props.step, { done: !this.props.step.done })
+        this.props.receiveStep(toggledStep);
     }
 
 
