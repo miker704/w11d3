@@ -25,3 +25,7 @@ export const removeTodo = (todo) => ({
     todo: todo
   });
   export const TODO_ERROR = "TODO_ERROR";
+  export const todoError = error => ({
+    type: TODO_ERROR,
+    error
+  })
