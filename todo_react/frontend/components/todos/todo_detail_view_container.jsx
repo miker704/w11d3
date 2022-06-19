@@ -5,8 +5,8 @@ import { receiveSteps } from "../../actions/step_actions"
 
 
 const mDTP = (dispatch,{todo}) => ({
-    removeTodo: () => dispatch(removeTodo(todo)),
-    receiveSteps: () => dispatch(receiveSteps(todo.id))
+    receiveSteps: () => dispatch(receiveSteps(todo.id)),
+    removeTodo: () => dispatch(removeTodo(todo))
 })
 
 

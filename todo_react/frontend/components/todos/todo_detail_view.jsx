@@ -2,7 +2,9 @@ import React from "react";
 import StepListContainer from "../steps/step_list_container.jsx";
 
 class TodoDetailView extends React.Component{
-   
+   componentDidMount(){
+    this.props.receiveSteps();
+   }
     render(){   
         const {todo,removeTodo} =this.props;
 
