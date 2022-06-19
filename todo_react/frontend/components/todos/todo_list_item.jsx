@@ -12,10 +12,12 @@ class TodoListItem extends React.Component {
     }
 
     toggleDetail(){
-
+            e.preventDefault();
+            this.setState({detail: !this.state.detail});
+            
     }
     toggleTodo(){
-        
+
     }
 
     render() {
