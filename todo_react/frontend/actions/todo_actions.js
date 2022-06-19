@@ -24,3 +24,4 @@ export const removeTodo = (todo) => ({
     type: REMOVE_TODO,
     todo: todo
   });
+  export const TODO_ERROR = "TODO_ERROR";
