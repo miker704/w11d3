@@ -81,10 +81,12 @@ h3{
 .input{
 
 }
-
+.todo-list, .todo-list-item, .todo-header a {
+    
+}
 
 .todo-list, .todo-list-item, .todo-body{
-    
+
 }
 
 .todo-form label, .step-form label{
