@@ -99,7 +99,8 @@ margin: 10px;
 }
 
 .todo-form label, .step-form label{
-
+    margin: 10px 20px;
+    
 }
 
 
