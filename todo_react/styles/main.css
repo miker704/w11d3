@@ -82,8 +82,15 @@ h3{
 
 }
 
-a{
+
+.todo-form input .step-form input, .todo-form textarea, .step-form textarea{
     
+}
+
+
+
+a{
+
 }
 
 .step-list{
