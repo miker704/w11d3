@@ -29,3 +29,25 @@ export const removeTodo = (todo) => ({
     type: TODO_ERROR,
     error
   })
+
+  export const fetchTodos = () => dispatch => (
+    TodoAPIUtil.fetchTodos().then(todos => dispatch(receiveTodos(todos)))
+  );
+  
+  export const fetchTodo = id => dispatch => (
+    TodoAPIUtil.fetchTodo(id).then(todo => dispatch(receiveTodo(todo)))
+  );
+  
+  export const createTodo = todo => dispatch => (
+    TodoAPIUtil.createTodo(todo)
+    .then(todo => { dispatch(receiveTodo(todo)); dispatch(removeErrors())},
+    err => dispatch(receiveErrors(err.responseJSON)))
+  );
+  
+  export const updateTodo = todo => dispatch => (
+    TodoAPIUtil.updateTodo(todo).then(todo => dispatch(receiveTodo(todo)))
+  );
+  
+  export const deleteTodo = todo => dispatch => (
+    TodoAPIUtil.destroyTodo(todo).then(todo => dispatch(removeTodo(todo)))
+  );
