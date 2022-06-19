@@ -64,6 +64,7 @@ h3{
 }
 
 .button:focus, .done:focus , .undone:focus, .delete-button:focus, .create-button:focus, a:focus{
+    outline: none;
 }
 
 .button:hover, .done:hover , .undone:hover, .delete-button:hover, .create-button:hover{
