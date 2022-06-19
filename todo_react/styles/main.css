@@ -79,11 +79,11 @@ h3{
 }
 
 .input{
-
+padding:5px;
 }
 
 .todo-list, .todo-list-item{
-    
+
 }
 
 .todo-list, .todo-list-item, .todo-header  {
