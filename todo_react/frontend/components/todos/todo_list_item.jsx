@@ -23,7 +23,18 @@ class TodoListItem extends React.Component {
     }
 
     render() {
+        const {todo, updateTodo} = this.props;
+        const{title,done} =this.props;
+        let detail;
+        if(this.state.detail){
+            detail = <TodoDetailViewContainer todo = {todo}/>
+        }
+
+
         return (
+
+
+
             <div>
                 <li className="TodoListItem">{this.props.todo.title}</li>
                 <button></button>
