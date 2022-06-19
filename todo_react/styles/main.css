@@ -7,7 +7,7 @@ html,body,ul,p,h3,h1,button{
 
 
 html,body{
-
+ height : 100%;
 }
 
 body{
@@ -15,5 +15,7 @@ body{
 }
 
 li{
-    
+
 }
+
+
