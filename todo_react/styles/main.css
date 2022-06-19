@@ -47,5 +47,11 @@ h3{
 }
 
 .button, .done , .undone ,.delete-button, .create-button{
-    
+
 }
+
+.button:focus, .done:focus , .undone:focus, .delete-button:focus, .create-button:focus, a:focus{
+
+}
+
+
